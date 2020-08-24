@@ -81,7 +81,7 @@ def siapa():
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan login SC nya dulu peletan\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="surya" and password =="SB13":
@@ -89,7 +89,7 @@ def loginSC():
 		time.sleep(1)
 		login()
 	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
+		print"\033[1;96m[!] \033[1;91mbenar!!"
 		time.sleep(1)
                 LoginSC()
 
@@ -144,7 +144,7 @@ def login():
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email salah")
+			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email benar")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
